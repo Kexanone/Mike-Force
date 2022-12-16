@@ -1,0 +1,3 @@
+[submodule "mission/Paradigm"]
+	path = mission/Paradigm
+	url = github-kex:Savage-Game-Design/Paradigm

@@ -71,6 +71,7 @@ class vn_b_wheeled_m54_mg_03 : wreck_short {};
 //Armoured Cars
 class vn_b_armor_m41_01_01 : wreck_long {};
 class vn_o_armor_type63_01 : wreck_long {};
+class vn_i_armor_type63_01 : wreck_long {};
 
 //APC
 class vn_b_armor_m113_01 : respawn_medium {};
@@ -136,6 +137,19 @@ class vn_b_air_oh6a_04 : wreck_medium {};
 class vn_b_air_oh6a_05 : wreck_medium {};
 class vn_b_air_oh6a_06 : wreck_medium {};
 class vn_b_air_oh6a_07 : wreck_medium {};
+
+// Mi-2P Hoplite
+class vn_o_air_mi2_01_02 : respawn_medium {};
+class vn_o_air_mi2_02_02 : respawn_medium {};
+
+//UH1B - Dustoff
+class vn_b_air_uh1b_01_01 : respawn_medium {};
+class vn_b_air_uh1b_01_02 : respawn_medium {};
+class vn_b_air_uh1b_01_03 : respawn_medium {};
+class vn_b_air_uh1b_01_04 : respawn_medium {};
+class vn_b_air_uh1b_01_05 : respawn_medium {};
+class vn_b_air_uh1b_01_06 : respawn_medium {};
+class vn_b_air_uh1b_01_07 : respawn_medium {};
 
 //UH1D - Dustoff
 class vn_b_air_uh1d_01_01 : respawn_medium {};

@@ -53,7 +53,7 @@ publicVariable "vn_mf_param_set_stamina";
 vn_revive_withstand_allow = (["always_allow_withstand", 1] call BIS_fnc_getParamValue) > 0;
 publicVariable "vn_revive_withstand_allow";
 //Set number of bandages needed to withstand.
-vn_revive_withstand_amount = 4;
+vn_revive_withstand_amount = 2;
 publicVariable "vn_revive_withstand_amount";
 //Set number of max players per team
 vn_mf_max_players_acav = ["max_players_acav", 99] call BIS_fnc_getParamValue;

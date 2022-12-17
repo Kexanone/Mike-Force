@@ -110,7 +110,7 @@ class day_length
     title = $STR_vn_mf_day_length;
     values[] = {3600, 5400, 7200, 9000, 10800, 21600, 43200, 86400, 172800};
     texts[] = {"1 hour", "1.5 hours", "2 hours", "2.5 hours", "3 hours", "6 hours", "12 hours", "24 hours", "48 hours"};
-    default = 7200;
+    default = 21600;
 };
 
 class Spacer4 : Spacer1 {};
@@ -120,7 +120,7 @@ class dusk_length
     title = $STR_vn_mf_dusk_length;
     values[] = {600, 1200, 1800, 2400, 3600, 5400, 7200, 9000, 10800};
     texts[] = {"10 minutes", "20 minutes", "30 minutes", "40 minutes", "1 hour", "1.5 hours", "2 hours", "2.5 hours", "3 hours"};
-    default = 1200;
+    default = 1800;
 };
 
 class Spacer5 : Spacer1 {};
@@ -128,9 +128,9 @@ class Spacer5 : Spacer1 {};
 class night_length
 {
     title = $STR_vn_mf_night_length;
-    values[] = {600, 1200, 1800, 2400, 3600, 5400, 7200, 9000, 10800, 21600, 43200, 86400, 172800};
-    texts[] = {"10 minutes", "20 minutes", "30 minutes", "40 minutes", "1 hour", "1.5 hours", "2 hours", "2.5 hours", "3 hours", "6 hours", "12 hours", "24 hours", "48 hours"};
-    default = 1200;
+    values[] = {-1, 600, 1200, 1800, 2400, 3600, 5400, 7200, 9000, 10800, 21600, 43200, 86400, 172800};
+    texts[] = {"0 minutes", "10 minutes", "20 minutes", "30 minutes", "40 minutes", "1 hour", "1.5 hours", "2 hours", "2.5 hours", "3 hours", "6 hours", "12 hours", "24 hours", "48 hours"};
+    default = 1;
 };
 
 class Spacer7 : Spacer1 {};
@@ -186,7 +186,7 @@ class snake_bite_chance
     title = $STR_vn_mf_param_snake_bite_chance;
     values[] = {0, 15, 25, 35, 50, 65, 75};
     texts[] = {"0% (Off)", "15%", "25%", "35%", "50% (Default)", "65%", "75%"};
-    default = 50;
+    default = 15;
 };
 
 class snake_bite_chance_desc
@@ -218,7 +218,7 @@ class snake_bite_frequency
     title = $STR_vn_mf_param_snake_bite_frequency;
     values[] = {150, 300, 450, 600};
     texts[] = {"2.5 minutes", "5 minutes (Default)", "7.5 minutes", "10 minutes"};
-    default = 300;
+    default = 600;
 };
 
 class snake_bite_frequency_desc
@@ -286,7 +286,7 @@ class max_players_spiketeam
     title = $STR_vn_mf_max_players_spiketeam;
     values[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 99};
     texts[] = {"0 players", "1 player", "2 players", "3 players", "4 players", "5 players", "6 players", "7 players", "8 players", "9 players", "10 players", "15 players", "20 players", "25 players", "30 players", "35 players", "40 players", "45 players", "50 players", "Default (99 players)"};
-    default = 6;
+    default = 99;
 };
 
 
@@ -297,7 +297,7 @@ class enable_air_support
     title = $STR_vn_mf_enable_air_support;
     values[] = {0, 1, 2};
     texts[] = {"Off", "On (Default)", "Unique Supports Only"};
-    default = 1;
+    default = 0;
 };
 
 class enable_air_support_desc
@@ -313,7 +313,7 @@ class enable_air_support_desc
     title = $STR_vn_mf_enable_arty_support;
     values[] = {0, 1};
     texts[] = {"Off", "On (Default)"};
-    default = 1;
+    default = 0;
 };
 
 class Spacer15 : Spacer1 {};

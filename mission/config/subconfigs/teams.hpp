@@ -8,10 +8,10 @@ class MikeForce
 
     class rolelimits 
     {
-        medic = 1;
-        engineer = 1;
-        explosiveSpecialist = 1;
-        vn_artillery = 1;
+        medic = 99;
+        engineer = 99;
+        explosiveSpecialist = 99;
+        vn_artillery = 0;
     };
     
     class defaultTraits
@@ -41,10 +41,10 @@ class SpikeTeam
 
     class rolelimits 
     {
-        medic = 1;
-        engineer = 0;
-        explosiveSpecialist = 1;
-        vn_artillery = 1;
+        medic = 99;
+        engineer = 99;
+        explosiveSpecialist = 99;
+        vn_artillery = 0;
     };
     
     class defaultTraits
@@ -75,10 +75,10 @@ class ACAV
 
     class rolelimits 
     {
-        medic = 2;
-        engineer = 40;
-        explosiveSpecialist = 2;
-        vn_artillery = 2;
+        medic = 99;
+        engineer = 99;
+        explosiveSpecialist = 99;
+        vn_artillery = 0;
     };
     
     class defaultTraits
@@ -108,10 +108,10 @@ class GreenHornets
     
     class rolelimits 
     {
-        medic = 1;
-        engineer = 1;
-        explosiveSpecialist = 1;
-        vn_artillery = 1;
+        medic = 99;
+        engineer = 99;
+        explosiveSpecialist = 99;
+        vn_artillery = 0;
     };
     
     class defaultTraits

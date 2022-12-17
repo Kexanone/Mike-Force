@@ -5,7 +5,7 @@ class map_config {
 	max_fortifications_per_zone = 0;
 	max_tunnels_per_zone = 3;
 	max_vehicle_depots_per_zone = 3;
-	starting_zones[] = {"zone_khe_sanh", "zone_kok", "zone_french_fort"};
+	starting_zones[] = {"zone_khe_sanh", "zone_kok", "zone_french_fort", "zone_koanphan"};
 	class zones {
 		#include "zones.hpp"
 	};

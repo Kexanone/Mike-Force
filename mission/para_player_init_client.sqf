@@ -282,4 +282,4 @@ if hasInterface then
 };
 
 ["InitializePlayer", [player]] call para_c_fnc_dynamicGroups;
-["KEX_playerRespawned", [player, objNull]] call para_g_fnc_event_dispatch_immediate;
+["PlayerInitClientDone", []] call para_g_fnc_event_dispatch_immediate;

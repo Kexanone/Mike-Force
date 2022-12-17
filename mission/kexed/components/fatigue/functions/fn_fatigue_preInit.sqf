@@ -2,10 +2,10 @@
 
 // Client side pre init
 if (hasInterface) then {
-    // Disable fatigue on player respawn
+    // Set fatigue on player respawn
     ["KEX_playerRespawned", [{
         params ["_handlerParams", "_eventParams"];
         _eventParams params ["_newUnit"];
-        _newUnit enableFatigue ((["Fatigue", 0] call BIS_fnc_getParamValue) isEqualTo 1);
+        _newUnit enableFatigue ENABLE_FATIGUE;
     }, []]] call para_g_fnc_event_add_handler;
 };

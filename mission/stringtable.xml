@@ -1696,4 +1696,18 @@
       </Key>
     </Container>
   </Package>
+    <Container name="Kexed">
+        <Key ID="STR_KEX_fatigue">
+            <English>Fatigue</English>
+            <German>Erschöpfung</German>
+        </Key>
+        <Key ID="STR_KEX_fatigue_disabled">
+            <English>Disabled</English>
+            <German>Inaktiv</German>
+        </Key>
+        <Key ID="STR_KEX_fatigue_enabled">
+            <English>Enabled</English>
+            <German>Aktiv</German>
+        </Key>
+    </Container>
 </Project>

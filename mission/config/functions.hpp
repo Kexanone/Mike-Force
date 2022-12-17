@@ -383,5 +383,6 @@ class CfgFunctions
 		};
 	};
 
-	#include "..\Txu_Info\cfgfunctions.hpp"
+	// Kexed
+	#include "..\kexed\cfgFunctions.hpp"
 };

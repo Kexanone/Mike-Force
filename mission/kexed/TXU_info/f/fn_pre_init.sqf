@@ -15,7 +15,7 @@
 //     DEFINE SCRIPT PATHS     //
 /////////////////////////////////
 
-  _pathCORE         = "TXU_INFO\";
+  _pathCORE         = "kexed\TXU_INFO\";
   _pathFNC          = _pathCORE  + "f\";
 
 /*     ----------------------     */

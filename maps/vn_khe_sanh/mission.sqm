@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=506;
+		nextID=650;
 	};
 	class Camera
 	{
 		pos[]={10974.138,123.71037,3059.8904};
-		dir[]={-0.61889529,-0.52688658,-0.58256865};
-		up[]={-0.38366014,0.8499307,-0.36114061};
-		aside[]={-0.68542206,-1.3271347e-008,0.72816199};
+		dir[]={-0.6188879,-0.52687925,-0.58255988};
+		up[]={-0.38364956,0.84994012,-0.36112976};
+		aside[]={-0.68541282,0,0.72815466};
 	};
 };
 binarizationWanted=0;
@@ -2557,7 +2557,7 @@ class Mission
 					};
 					id=276;
 					type="vn_b_air_oh6a_01";
-					atlOffset=0.40483093;
+					atlOffset=0.40472412;
 				};
 				class Item11
 				{
@@ -2646,7 +2646,7 @@ class Mission
 					};
 					id=288;
 					type="vn_b_air_ch34_01_01";
-					atlOffset=0.00035858154;
+					atlOffset=0.00048828125;
 				};
 				class Item13
 				{
@@ -11145,7 +11145,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this setObjectTexture [0, ""img\kex_whiteboard.jpg""]";
+				init="this setObjectTexture [0, ""kexed\data\images\whiteboard.jpg""]";
 				name="vn_mf_greenhornets_teleporter";
 			};
 			id=553;
@@ -11163,7 +11163,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this setObjectTexture [0, ""img\kex_whiteboard.jpg""]";
+				init="this setObjectTexture [0, ""kexed\data\images\whiteboard.jpg""]";
 				name="vn_mf_mikeforce_teleporter";
 			};
 			id=554;
@@ -11181,7 +11181,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this setObjectTexture [0, ""img\kex_whiteboard.jpg""]";
+				init="this setObjectTexture [0, ""kexed\data\images\whiteboard.jpg""]";
 				name="vn_mf_acav_teleporter";
 			};
 			id=555;
@@ -11199,7 +11199,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this setObjectTexture [0, ""img\kex_whiteboard.jpg""]";
+				init="this setObjectTexture [0, ""kexed\data\images\whiteboard.jpg""]";
 				name="vn_mf_spiketeam_teleporter";
 			};
 			id=556;
@@ -11220,7 +11220,7 @@ class Mission
 			};
 			id=565;
 			type="vn_o_air_mi2_01_02";
-			atlOffset=0.018600464;
+			atlOffset=0.018608093;
 		};
 		class Item101
 		{
@@ -11239,7 +11239,7 @@ class Mission
 			};
 			id=568;
 			type="vn_o_air_mi2_01_02";
-			atlOffset=0.0089797974;
+			atlOffset=0.0090408325;
 			class CustomAttributes
 			{
 				class Attribute0

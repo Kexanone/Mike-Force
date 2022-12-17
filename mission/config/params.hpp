@@ -128,9 +128,9 @@ class Spacer5 : Spacer1 {};
 class night_length
 {
     title = $STR_vn_mf_night_length;
-    values[] = {-1, 600, 1200, 1800, 2400, 3600, 5400, 7200, 9000, 10800, 21600, 43200, 86400, 172800};
+    values[] = {600, 1200, 1800, 2400, 3600, 5400, 7200, 9000, 10800, 21600, 43200, 86400, 172800};
     texts[] = {"0 minutes", "10 minutes", "20 minutes", "30 minutes", "40 minutes", "1 hour", "1.5 hours", "2 hours", "2.5 hours", "3 hours", "6 hours", "12 hours", "24 hours", "48 hours"};
-    default = 1;
+    default = 21600;
 };
 
 class Spacer7 : Spacer1 {};
@@ -483,7 +483,7 @@ class enable_stamina
     title = $STR_vn_mf_param_enable_stamina;
     values[] = {1, 0};
     texts[] = {"True", "False"};
-    default = 1;
+    default = 0;
 };
 
 class set_stamina
@@ -577,3 +577,6 @@ class cleanup_dropped_gear_lifetime
     texts[] = {"1 minute", "2 minutes", "3 minutes", "5 minutes", "10 minutes", "30 minutes", "1 hour"};
     default = 300;
 };
+
+// Kexed
+#include "..\kexed\params.hpp"

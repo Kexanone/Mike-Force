@@ -10,7 +10,7 @@ class Header
 {
 	gameType = "mikefrc";
 	minPlayers = 1;
-	maxPlayers = 32; //Do not exceed 32 players, as it begins to degrade balance and performance.
+	maxPlayers = 34; //Do not exceed 32 players, as it begins to degrade balance and performance.
 };
 respawn = "BASE";
 respawnDelay = 20;
@@ -19,13 +19,13 @@ respawnButton = 1;
 respawnOnStart = -1;
 respawnTemplates[] = { "MenuPosition" };
 onPauseScript = "";
-onLoadMission = QUOT(Mike Force (VN_MF_VERSION));
+onLoadMission = QUOT(Mike Force (VN_MF_VERSION) (modified by Kex));
 OnLoadIntro = "Welcome to Mike Force";
 loadScreen = "\vn\missions_f_vietnam\data\img\mikeforce\mission.jpg";
 OnLoadIntroTime = 0;
 OnLoadMissionTime = 0;
-briefingName = QUOT(Mike Force (VN_MF_VERSION));
-onLoadName = QUOT(Mike Force (VN_MF_VERSION));
+briefingName = QUOT(Mike Force (VN_MF_VERSION) (modified by Kex));
+onLoadName = QUOT(Mike Force (VN_MF_VERSION) (modified by Kex));
 overviewPicture = "\vn\missions_f_vietnam\data\img\mikeforce\mission.jpg";
 
 disabledAI = 1;
@@ -33,9 +33,9 @@ scriptedPlayer = 0;
 disableChannels[]=  // allow text only on side chat
 {
 	{0,true,true},
-	{1,false,true},
-	{2,true,true},
-	{6,true,true}
+	{1,false,false},
+	{2,false,false},
+	{6,false,false}
 };
 enableItemsDropping = 0;
 briefing = 0;
@@ -113,3 +113,6 @@ use_paradigm_init = 1;
 
 // VN HAM init
 #include "config\init.hpp"
+
+// Txu_Info
+#include "Txu_Info\CfgControls.hpp"

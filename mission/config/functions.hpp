@@ -382,4 +382,6 @@ class CfgFunctions
 			class task_zone_connector { file = "functions\tasks\fn_zone_connector.sqf";};
 		};
 	};
+
+	#include "..\Txu_Info\cfgfunctions.hpp"
 };

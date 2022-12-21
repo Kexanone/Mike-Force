@@ -1,5 +1,8 @@
 # README
 
+## ABOUT THIS FORK
+This is a modification of the parent repository by Savage Game Design. See [README.md](mission/kexed/README.md) inside `kexed` folder for more details.
+
 ## IMPORTANT LICENSING INFORMATION
 
 We're still finalising the license under which this code can be modified and redistributed. 

@@ -6,6 +6,7 @@
 - Reduced probability of snake bites
 ### Map Modifications (Khe Sanh Only)
 - Removed CAS aircrafts
+- Added some new vehicles like Mi-2 Hoplite and Type 63 tank
 - Added teleporters
 - Reworked zone linking
 ### Additional Modifications by `kexed` Folder

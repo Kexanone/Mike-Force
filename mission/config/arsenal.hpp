@@ -510,6 +510,8 @@ class vn_whitelisted_arsenal_loadouts
 			{"vn_prop_med_dysentery",{0,0,0,0}},
 			{"vn_prop_med_painkillers",{0,0,0,0}},
 			{"vn_prop_med_wormpowder",{0,0,0,0}},
+            // Lighter
+			{"vn_b_item_lighter_01",{0,0,0,0}},
 			// 1.1 Content
 			{"vn_m63a_150_mag",{-1,6,-1,-1}},
 			{"vn_m63a_150_t_mag",{-1,6,-1,-1}},

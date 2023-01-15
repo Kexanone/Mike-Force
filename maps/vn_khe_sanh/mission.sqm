@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=674;
+		nextID=686;
 	};
 	class Camera
 	{
@@ -27,7 +27,7 @@ class EditorData
 	};
 };
 binarizationWanted=0;
-sourceName="vn_mf_latest";
+sourceName="vn_mf_latest_kexed";
 addons[]=
 {
 	"A3_Ui_F",
@@ -260,6 +260,24 @@ class CustomAttributes
 				class data
 				{
 					singleType="ARRAY";
+				};
+			};
+		};
+		nAttributes=1;
+	};
+	class Category1
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="cba_settings_hasSettingsFile";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="BOOL";
+					value=1;
 				};
 			};
 		};
@@ -2557,7 +2575,7 @@ class Mission
 					};
 					id=276;
 					type="vn_b_air_oh6a_01";
-					atlOffset=0.40472412;
+					atlOffset=0.40483093;
 				};
 				class Item11
 				{
@@ -2646,7 +2664,7 @@ class Mission
 					};
 					id=288;
 					type="vn_b_air_ch34_01_01";
-					atlOffset=0.00048828125;
+					atlOffset=0.00035858154;
 				};
 				class Item13
 				{
@@ -11220,7 +11238,7 @@ class Mission
 			};
 			id=565;
 			type="vn_o_air_mi2_01_02";
-			atlOffset=0.018608093;
+			atlOffset=0.018600464;
 		};
 		class Item101
 		{
@@ -11239,7 +11257,7 @@ class Mission
 			};
 			id=568;
 			type="vn_o_air_mi2_01_02";
-			atlOffset=0.0090408325;
+			atlOffset=0.0089797974;
 			class CustomAttributes
 			{
 				class Attribute0

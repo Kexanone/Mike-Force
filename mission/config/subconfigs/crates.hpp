@@ -74,6 +74,7 @@ class AmmoCrateSupport
 	magazines[] = {
 		{"vn_m60_100_mag",20},
 		{"vn_rpd_100_mag",20},
+        {"vn_type56_mag",20},
 		{"vn_m63a_100_mag", 20},
 		{"vn_vz61_mag", 20},
 		{"vn_m40a1_mag",30},
